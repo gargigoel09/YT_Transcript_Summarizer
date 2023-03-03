@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>QuickScript</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        body {
+            width: max-content;
+            max-width: 500px;
+        }
+
+        button {
+            background-color: red;
+            color: white;
+            border-radius: 8px;
+            width: max-content;
+            height: max-content;
+            padding: 10px;
+            font-size: large;
+            margin: auto;
+            display: black;
+            border-color: coral;
+        }
+
+        button[disabled] {
+            background-color: lightcoral;
+            color: white;
+            border-radius: 8px;
+            width: max-content;
+            height: max-content;
+            padding: 10px;
+            font-size: large;
+            margin: auto;
+            display: black;
+            border-color: lightpink;
+
+        }
+
+        p {
+            font-size: medium;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="heading"> QuickScript </h1>
+    <button id="summarize" type="button">Generate Summary</button>
+    <p id="output"></p>
+    <script type="text/javascript" src="popup.js"></script>
+</body>
+
+</html>
